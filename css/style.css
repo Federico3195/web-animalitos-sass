@@ -1,0 +1,32 @@
+header {
+  background-color: blue;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+}
+header nav ul {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

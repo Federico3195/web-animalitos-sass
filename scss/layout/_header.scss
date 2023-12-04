@@ -1,0 +1,32 @@
+header{
+    background-color: blue;
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-decoration: none;
+            color: white;
+        }
+    }
+    nav{
+        ul{
+            background-color: yellow;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+}
