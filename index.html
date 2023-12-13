@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -11,24 +12,111 @@
     <header>
         <div>
 
+            
             <a href=""><img src="./assets/img/logo animalitos.png" alt="logo animalitos"></a>
 
-            <input type="text" placeholder="Buscar...">
+            <nav>
+                <ul>
+                    <li class="active"><a href="#"></a>Inicio</li>
+                    <li><a href=""></a>Adultos</li>
+                    <li><a href=""></a>Cachorros</li>
+                    <li><a href=""></a>Gatos</li>
+                    <li><a href=""></a>Forraje</li>
+                </ul>
+            </nav>
+
+            <form action="/search" method="GET">
+                <input type="text" placeholder="Buscar..." name="q">
+            </form>
 
             <a href=""><img src="./assets/img/male User.png" alt="">Ingresar</a>
             <a href=""><img src="./assets/img/cart.png" alt="">Carrito</a>
 
         </div>
 
-        <nav>
-            <ul>
-                <li><a href=""></a>Perro adulto</li>
-                <li><a href=""></a>Cachorro</li>
-                <li><a href=""></a>Gato</li>
-                <li><a href=""></a>Forraje</li>
-            </ul>
-        </nav>
-
     </header>
+
+    <main>
+        <h1 class="title flex justify-center">LO MEJOR PARA TU MASCOTA</h1>
+
+        <section class="flex justify-center bg-blue-800">
+            <a href="">
+                <h2>REGISTRATE COMO USUARIO AHORA PARA OBTENER ENVIOS GRATIS!</h2>
+                <img src="./assets/img/truck.png" alt="">
+            </a>
+        </section>
+
+        <section class="flex justify-center">
+
+            <article>
+                <img src="./assets/img/adulto1.png" alt="Categoria adultos">
+                <h3>Adultos</h3>
+            </article>
+
+            <article>
+                <img src="./assets/img/cachorro1.png" alt="Categoria cachorros">
+                <h3>Cachorros</h3>
+            </article>
+
+            <article>
+                <img src="./assets/img/gato1.png" alt="Categoria Gatos">
+                <h3>Gatos</h3>
+            </article>
+
+            <article>
+                <img src="./assets/img/forraje1.png" alt="Categoria Forraje">
+                <h3>Forraje</h3>
+            </article>
+
+        </section>
+
+        <section class="flex justify-center bg-blue-800">
+
+            <a href="">
+                <h2>EXCLUSIVO llevando alimento</h2>
+
+                <img src="./assets/img/purina.png" alt="logo purina">
+
+                <h2>ahorras un 15%</h2>
+
+                <img src="./assets/img/perro purina.png" alt="alimento purina">
+            </a>
+
+        </section>
+
+        <section>
+
+            <h3>Marcas destacadas:</h3>
+
+            <div class="marcas">
+                <a href=""><img src="./assets/img/marcas/eukanuba.png" alt="Eukanuba"></a>
+                <a href=""><img src="./assets/img/marcas/ferplast.png" alt="Ferplast"></a>
+                <a href=""><img src="./assets/img/marcas/infinity.png" alt="Infinity"></a>
+                <a href=""><img src="./assets/img/marcas/pawise.png" alt="Pawise"></a>
+                <a href=""><img src="./assets/img/marcas/puppis.png" alt="Puppis"></a>
+                <a href=""><img src="./assets/img/marcas/purina excellent.png" alt="Ourina excellent"></a>
+                <a href=""><img src="./assets/img/marcas/royal canin.png" alt="Royal canin"></a>
+                <a href=""><img src="./assets/img/marcas/vital can.png" alt="Vital can"></a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="flex justify-around bg-blue-800">
+
+        <div class="flex justify-around">
+            <h4>Seguinos en:</h4>
+            <a href="https://www.instagram.com/"><img src="./assets/img/instagram.png" alt="Instagram"></a>
+            <a href="https://twitter.com/"><img src="./assets/img/twitterx.png" alt="X Twitter"></a>
+            <a href="https://www.facebook.com/"><img src="./assets/img/facebook.png" alt="Facebook"></a>
+        </div>
+
+        <a href="">Trabaja con nosotros</a>
+
+        <h4>Si tenes sugerencias o comentarios,</h4>
+        <a href="">Contactanos</a>
+
+    </footer>
 </body>
 </html>
