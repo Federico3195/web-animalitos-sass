@@ -14,7 +14,7 @@ header {
   top: 0;
   position: sticky;
   margin-bottom: 1.875rem;
-  border-bottom: solid 3px rgba(11, 11, 143, 0.726);
+  border-bottom: solid 2px rgba(11, 11, 143, 0.13);
 }
 header div {
   padding: 0.625rem;
@@ -44,6 +44,10 @@ header div nav ul a:hover {
   background-color: rgba(0, 0, 102, 0.747);
 }
 
+.logo {
+  width: 10vh;
+}
+
 .active {
   color: rgb(99, 99, 126);
   font-weight: bold;
@@ -67,9 +71,12 @@ header div nav ul a:hover {
   font-size: 3.75rem;
   font-weight: bolder;
   padding: 2.5rem;
-  border: solid 3px rgb(18, 0, 83);
+  border: solid 3px rgba(18, 0, 83, 0.651);
   border-radius: 30px;
   margin-top: 1.875rem;
+}
+.banner1 img {
+  width: 30vh;
 }
 
 .section1 {
@@ -85,8 +92,8 @@ header div nav ul a:hover {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: rgb(18, 0, 83);
-  border: solid 8px rgb(18, 0, 83);
+  background-color: rgba(18, 0, 83, 0.658);
+  border: solid 8px rgba(18, 0, 83, 0.151);
   border-radius: 10px;
   color: white;
   font-size: 1.875rem;
@@ -107,10 +114,16 @@ header div nav ul a:hover {
   font-family: "Bebas Neue", sans-serif;
   font-weight: bolder;
   color: white;
-  border: solid 3px rgb(18, 0, 83);
+  border: solid 3px rgba(18, 0, 83, 0.671);
   border-radius: 30px;
   padding: 2.5rem;
   margin-top: 1.875rem;
+}
+.banner2 div a:first-child img {
+  width: 20vh;
+}
+.banner2 div:nth-child(1) img {
+  width: 30vh;
 }
 
 .brands {
@@ -148,6 +161,7 @@ footer {
   background-color: rgba(14, 14, 105, 0.808);
   align-items: center;
   margin-top: 1.875rem;
+  flex-wrap: wrap;
 }
 footer div div {
   display: flex;
@@ -174,6 +188,113 @@ footer div img:hover {
 }
 .contact a:hover {
   color: yellow;
+}
+
+@media all and (max-width: 1024px) {
+  header a {
+    font-size: 1rem;
+  }
+  .banner1 {
+    height: 30vh;
+    font-size: 3rem;
+  }
+  .banner1 img {
+    width: 22vh;
+  }
+  .brands {
+    width: 70%;
+  }
+  footer {
+    font-size: 1.5625rem;
+  }
+  footer img {
+    width: 5vh;
+  }
+}
+@media all and (max-width: 768px) {
+  header {
+    font-size: 0.9375rem;
+  }
+  header input {
+    width: 7vh;
+  }
+  header img {
+    width: 5vh;
+  }
+  .title {
+    font-size: 5rem;
+  }
+  .banner1 {
+    width: 70%;
+    font-size: 3rem;
+  }
+  .banner1 img {
+    width: 18vh;
+  }
+  .section1 article {
+    font-size: 25px;
+  }
+  .banner2 {
+    width: 70%;
+    font-size: 3rem;
+  }
+  .brands {
+    width: 80%;
+  }
+  footer {
+    text-align: center;
+    flex-direction: column;
+    gap: 1.875rem;
+    font-size: 1.5625rem;
+  }
+  footer img {
+    width: 5vh;
+  }
+}
+@media all and (max-width: 425px) {
+  header {
+    flex-direction: column;
+    font-size: 0.9375rem;
+  }
+  header input {
+    width: 7vh;
+  }
+  header img {
+    width: 5vh;
+  }
+  .title {
+    font-size: 5rem;
+  }
+  .banner1 {
+    width: 70%;
+    font-size: 3rem;
+  }
+  .banner1 img {
+    width: 18vh;
+  }
+  .section1 {
+    flex-wrap: wrap;
+  }
+  .section1 article {
+    width: 10vh;
+    font-size: 1.25rem;
+  }
+  .banner2 {
+    width: 70%;
+    font-size: 3rem;
+  }
+  .brands {
+    width: 80%;
+  }
+  footer {
+    text-align: center;
+    flex-direction: column;
+    gap: 1.875rem;
+    font-size: 1.5625rem;
+  }
+  footer img {
+    width: 5vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

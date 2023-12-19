@@ -3,7 +3,7 @@ header{
     top: 0;
     position: sticky;
     margin-bottom: 1.875rem;
-    border-bottom: solid 3px rgba(11, 11, 143, 0.726);
+    border-bottom: solid 2px rgba(11, 11, 143, 0.13);
     div{
     padding: .625rem;
     display:flex;
@@ -34,6 +34,9 @@ header{
         }
     }
 }
+}
+.logo{
+    width: 10vh;
 }
 
 .active{

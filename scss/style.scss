@@ -1,5 +1,6 @@
 
 @import "./global/reset";
+
 @import "./layout/body";
 @import "./layout/header";
 @import "./layout/main";
@@ -9,4 +10,7 @@
 @import "./layout/brands";
 @import "./layout/footer";
 
+@import "./layout/mediaQ1024px";
+@import "./layout/mediaQ768px";
+@import "./layout/mediaQ425px";
 

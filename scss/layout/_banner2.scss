@@ -8,8 +8,14 @@
     font-family: 'Bebas Neue', sans-serif;
     font-weight: bolder;
     color: white;
-    border: solid 3px rgb(18, 0, 83);
+    border: solid 3px rgba(18, 0, 83, 0.671);
     border-radius: 30px;
     padding: 2.5rem;
     margin-top: 1.875rem;
+    div a:first-child img {
+        width:20vh;
+    }
+    div:nth-child(1) img {
+        width: 30vh;
+    }
 }

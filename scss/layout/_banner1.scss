@@ -10,7 +10,10 @@
     font-size: 3.75rem;
     font-weight: bolder;
     padding: 2.5rem;
-    border: solid 3px rgb(18, 0, 83);
+    border: solid 3px rgba(18, 0, 83, 0.651);
     border-radius: 30px;
     margin-top: 1.875rem;
+    img{
+        width: 30vh;
+    }
 }

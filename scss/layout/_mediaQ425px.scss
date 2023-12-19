@@ -1,0 +1,46 @@
+@media all and (max-width: 425px){
+    header{
+        flex-direction: column;
+        font-size: .9375rem;
+        input{
+            width: 7vh;
+        }
+        img{
+            width: 5vh;
+        }
+}
+.title{
+    font-size: 5rem;
+}
+.banner1{
+    width: 70%;
+    font-size: 3rem;
+    img{
+        width: 18vh;
+    }
+}
+.section1{
+    flex-wrap: wrap;
+    article{
+        width: 10vh;
+        font-size: 1.25rem;
+
+    }
+}
+.banner2{
+    width: 70%;
+    font-size: 3rem;
+}
+.brands{
+    width: 80%;
+}
+footer{
+    text-align: center;
+    flex-direction: column;
+    gap: 1.875rem;
+    font-size: 1.5625rem;
+    img{
+        width: 5vh;
+    }
+}
+}
