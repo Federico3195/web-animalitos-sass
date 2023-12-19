@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Animalitos - Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="bg-gradient-to-t from-blue-800 to-cyan-300">
     
-    <header>
+    <header class="bg-gradient-to-b from-blue-800 to-cyan-300">
         <div>
 
             
@@ -17,78 +17,90 @@
 
             <nav>
                 <ul>
-                    <li class="active"><a href="#"></a>Inicio</li>
-                    <li><a href=""></a>Adultos</li>
-                    <li><a href=""></a>Cachorros</li>
-                    <li><a href=""></a>Gatos</li>
-                    <li><a href=""></a>Forraje</li>
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="">Adultos</a></li>
+                    <li><a href="">Cachorros</a></li>
+                    <li><a href="">Gatos</a></li>
+                    <li><a href="">Forraje</a></li>
                 </ul>
             </nav>
-
+            
             <form action="/search" method="GET">
                 <input type="text" placeholder="Buscar..." name="q">
             </form>
-
-            <a href=""><img src="./assets/img/male User.png" alt="">Ingresar</a>
-            <a href=""><img src="./assets/img/cart.png" alt="">Carrito</a>
+            
+            <div class="flex text-center text-xl font-bold gap-4 ">
+                <a href=""><img src="./assets/img/male User.png" alt="">Ingresar</a>
+                <a href=""><img src="./assets/img/cart.png" alt="">Carrito</a>
+            </div>
 
         </div>
 
     </header>
 
     <main>
-        <h1 class="title flex justify-center">LO MEJOR PARA TU MASCOTA</h1>
+        <h1 class="title flex justify-center bg-gradient-to-b from-gray-900 to-sky-400 bg-clip-text text-transparent">LO MEJOR PARA TU MASCOTA</h1>
 
-        <section class="flex justify-center bg-blue-800">
-            <a href="">
-                <h2>REGISTRATE COMO USUARIO AHORA PARA OBTENER ENVIOS GRATIS!</h2>
+        <section class="banner1 bg-gradient-to-r from-indigo-700 to-sky-500">
+            <div class="flex flex-col">
+                <a href="">Registrate como usuario</a>
+                <a href="">para obtener</a>
+                <a href="">envios gratis</a>
+            </div>
                 <img src="./assets/img/truck.png" alt="">
-            </a>
-        </section>
-
-        <section class="flex justify-center">
-
-            <article>
-                <img src="./assets/img/adulto1.png" alt="Categoria adultos">
-                <h3>Adultos</h3>
-            </article>
-
-            <article>
-                <img src="./assets/img/cachorro1.png" alt="Categoria cachorros">
-                <h3>Cachorros</h3>
-            </article>
-
-            <article>
-                <img src="./assets/img/gato1.png" alt="Categoria Gatos">
-                <h3>Gatos</h3>
-            </article>
-
-            <article>
-                <img src="./assets/img/forraje1.png" alt="Categoria Forraje">
-                <h3>Forraje</h3>
-            </article>
 
         </section>
 
-        <section class="flex justify-center bg-blue-800">
+        <section class="section1">
 
-            <a href="">
-                <h2>EXCLUSIVO llevando alimento</h2>
+            <article>
+                <a href=""><img src="./assets/img/adulto1.png" alt="Categoria adultos"></a>
+                <a href="">Adultos</a>
+            </article>
 
-                <img src="./assets/img/purina.png" alt="logo purina">
+            <article>
+                <a href=""><img src="./assets/img/cachorro1.png" alt="Categoria cachorros"></a>
+                <a href="">Cachorros</a>
+            </article>
 
-                <h2>ahorras un 15%</h2>
+            <article>
+                <a href=""><img src="./assets/img/gato1.png" alt="Categoria Gatos"></a>
+                <a href="">Gatos</a>
+            </article>
 
-                <img src="./assets/img/perro purina.png" alt="alimento purina">
-            </a>
+            <article>
+                <a href=""><img src="./assets/img/forraje1.png" alt="Categoria Forraje"></a>
+                <a href="">Forraje</a>
+            </article>
 
         </section>
 
-        <section>
+        <section class="banner2 bg-gradient-to-l from-indigo-700 to-sky-500">
 
-            <h3>Marcas destacadas:</h3>
 
-            <div class="marcas">
+                <div>
+                    <a href="">EXCLUSIVO llevando alimento</a>
+
+                    <a href=""><img src="./assets/img/purina.png" alt="logo purina"></a>
+
+                    <a href="">ahorras un 15%</a>
+                </div>
+
+                <div>
+                <a href=""><img src="./assets/img/perro purina.png" alt="alimento purina"></a>
+                </div>
+
+
+
+        </section>
+
+<div class="brands-title">
+    <h3>Marcas destacadas:</h3>
+</div>
+
+        <section class="brands">
+
+
                 <a href=""><img src="./assets/img/marcas/eukanuba.png" alt="Eukanuba"></a>
                 <a href=""><img src="./assets/img/marcas/ferplast.png" alt="Ferplast"></a>
                 <a href=""><img src="./assets/img/marcas/infinity.png" alt="Infinity"></a>
@@ -97,26 +109,30 @@
                 <a href=""><img src="./assets/img/marcas/purina excellent.png" alt="Ourina excellent"></a>
                 <a href=""><img src="./assets/img/marcas/royal canin.png" alt="Royal canin"></a>
                 <a href=""><img src="./assets/img/marcas/vital can.png" alt="Vital can"></a>
-            </div>
 
         </section>
 
     </main>
 
-    <footer class="flex justify-around bg-blue-800">
+    <footer class="bg-gradient-to-b from-blue-800 to-cyan-300">
 
-        <div class="flex justify-around">
+        <div>
             <h4>Seguinos en:</h4>
-            <a href="https://www.instagram.com/"><img src="./assets/img/instagram.png" alt="Instagram"></a>
-            <a href="https://twitter.com/"><img src="./assets/img/twitterx.png" alt="X Twitter"></a>
-            <a href="https://www.facebook.com/"><img src="./assets/img/facebook.png" alt="Facebook"></a>
+            <div>
+                <a href="https://www.instagram.com/"><img src="./assets/img/instagram.png" alt="Instagram"></a>
+                <a href="https://twitter.com/"><img src="./assets/img/twitterx.png" alt="X Twitter"></a>
+                <a href="https://www.facebook.com/"><img src="./assets/img/facebook.png" alt="Facebook"></a>
+            </div>
         </div>
 
-        <a href="">Trabaja con nosotros</a>
+        <a class="workwithus" href="">Trabaja con nosotros</a>
 
-        <h4>Si tenes sugerencias o comentarios,</h4>
-        <a href="">Contactanos</a>
+        <div class="contact">
+            <h4>Si tenes sugerencias o comentarios,</h4>
+            <a href="">Contactanos</a>
+        </div>
 
     </footer>
 </body>
 </html>
+

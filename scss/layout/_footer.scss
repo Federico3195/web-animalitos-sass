@@ -1,0 +1,38 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.25rem .625rem;
+    color: white;
+    font-size: 1.875rem;
+    background-color: rgba(14, 14, 105, 0.808);
+    align-items: center;
+    margin-top: 1.875rem;
+    div{
+        div{
+            display: flex;
+        }
+        img:hover{
+            transform: scale(1.2);
+            transition-duration: 1s;
+        }
+    }
+}
+
+.workwithus:hover{
+    color: yellow;
+    font-weight: bold;
+}
+
+.contact{
+    text-align: center;
+    a{
+        font-weight: bold;
+    }
+}
+
+.contact{
+    text-align: center;
+    a:hover{
+        color: yellow;
+    }
+}

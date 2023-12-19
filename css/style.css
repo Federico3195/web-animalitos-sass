@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -5,23 +6,42 @@
 }
 
 body {
-  background-image: url(../assets/img/catbackground.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
-  background-color: rgba(0, 0, 153, 0.829);
+  background-color: rgba(14, 14, 105, 0.877);
+  top: 0;
+  position: sticky;
+  margin-bottom: 1.875rem;
+  border-bottom: solid 3px rgba(11, 11, 143, 0.726);
 }
 header div {
+  padding: 0.625rem;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+header div input {
+  border-radius: 0.625rem;
+  padding: 0rem 0.625rem;
 }
 header div nav ul {
   display: flex;
   gap: 1rem;
   color: white;
+  font-size: 1.5625rem;
+  font-weight: bold;
+}
+header div nav ul a {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+}
+header div nav ul a:hover {
+  transition-duration: 1s;
+  color: yellow;
+  background-color: rgba(0, 0, 102, 0.747);
 }
 
 .active {
@@ -30,14 +50,130 @@ header div nav ul {
 }
 
 .title {
+  font-family: "Bebas Neue", sans-serif;
   font-size: 6rem;
   font-weight: bold;
 }
 
-.marcas {
+.banner1 {
+  width: 60%;
+  margin: auto;
+  background-color: rgba(39, 85, 172, 0.747);
   display: flex;
-  gap: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.75rem;
+  font-weight: bolder;
+  padding: 2.5rem;
+  border: solid 3px rgb(18, 0, 83);
+  border-radius: 30px;
+  margin-top: 1.875rem;
+}
+
+.section1 {
+  display: flex;
   justify-content: center;
+  gap: 2.5rem;
+  align-items: center;
+  margin: auto;
+  padding: 2.5rem;
+  margin-top: 1.875rem;
+}
+.section1 article {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(18, 0, 83);
+  border: solid 8px rgb(18, 0, 83);
+  border-radius: 10px;
+  color: white;
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+.section1 img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.banner2 {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 3.75rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bolder;
+  color: white;
+  border: solid 3px rgb(18, 0, 83);
+  border-radius: 30px;
+  padding: 2.5rem;
+  margin-top: 1.875rem;
+}
+
+.brands {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  justify-items: center;
+  gap: 1.25rem;
+  padding: 2.5rem;
+  margin-top: 1.875rem;
+}
+.brands img {
+  border: solid 4px rgba(0, 0, 0, 0.336);
+  border-radius: 50%;
+}
+
+.brands-title {
+  width: 59%;
+  margin: auto;
+  display: flex;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  padding-top: 2.5rem;
+  margin-top: 1.875rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.25rem 0.625rem;
+  color: white;
+  font-size: 1.875rem;
+  background-color: rgba(14, 14, 105, 0.808);
+  align-items: center;
+  margin-top: 1.875rem;
+}
+footer div div {
+  display: flex;
+}
+footer div img:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+
+.workwithus:hover {
+  color: yellow;
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+}
+.contact a {
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+}
+.contact a:hover {
+  color: yellow;
 }
 
 /*# sourceMappingURL=style.css.map */

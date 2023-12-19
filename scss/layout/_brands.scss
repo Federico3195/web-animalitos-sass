@@ -1,0 +1,24 @@
+.brands{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    justify-items: center;
+    gap: 1.25rem;
+    padding: 2.5rem;
+    margin-top: 1.875rem;
+    img{
+        border: solid 4px rgba(0, 0, 0, 0.336);
+        border-radius: 50%;
+    }
+}
+.brands-title{
+    width: 59%;
+    margin: auto;
+    display: flex;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding-top: 2.5rem;
+    margin-top: 1.875rem;
+}
