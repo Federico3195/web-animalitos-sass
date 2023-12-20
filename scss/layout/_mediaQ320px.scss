@@ -1,0 +1,83 @@
+@media all and (max-width: 425px){
+    header{
+        div{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .nav{
+                gap: .0625rem;
+                a{
+                    font-size: .75rem;
+                }
+            }
+        }
+        font-size: .9375rem;
+        input{
+            width: 10vh;
+        }
+        img{
+            width: 5vh;
+        }
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 10vh;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    a{
+        font-size: 12px;
+        text-align: center;
+    }
+    img{
+        display: flex;
+        width: 3vh;
+        translate: 13px;
+    }
+}
+}
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 3.3125rem;
+}
+.banner1{
+    width: 90%;
+    font-size: 2.0rem;
+    line-height: 3.0005rem;
+    img{
+        width: 10vh;
+    }
+}
+.section1{
+    flex-wrap: wrap;
+    article{
+        width: 10vh;
+        font-size: 1.25rem;
+
+    }
+}
+.banner2{
+    width: 90%;
+    font-size: 2.5rem;
+    gap: 10px;
+}
+.brands{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,4fr)
+}
+footer{
+    text-align: center;
+    flex-direction: column;
+    gap: 1.875rem;
+    font-size: 1.5625rem;
+    img{
+        width: 5vh;
+    }
+}
+}
