@@ -423,8 +423,8 @@ footer div img:hover {
     font-size: 0.9375rem;
   }
   header div {
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: stretch;
     align-items: center;
   }
   header div .nav {
@@ -432,35 +432,29 @@ footer div img:hover {
     flex-direction: column;
     text-align: center;
     line-height: 1rem;
-    padding: 10px;
   }
   header div .nav a {
     font-size: 0.75rem;
   }
   header input {
-    width: 10vh;
-  }
-  header img {
-    width: 5vh;
+    display: none;
   }
   header .logo {
     display: flex;
     justify-content: center;
+    translate: 220px 0px;
     width: 10vh;
+    position: absolute;
   }
   header .icons {
     display: flex;
     flex-direction: row;
     text-align: center;
+    padding: 0;
   }
   header .icons a {
     font-size: 12px;
     text-align: center;
-  }
-  header .icons img {
-    display: flex;
-    width: 3vh;
-    translate: 13px;
   }
   .title {
     display: flex;
