@@ -428,7 +428,11 @@ footer div img:hover {
     align-items: center;
   }
   header div .nav {
-    gap: 0.0625rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1rem;
+    padding: 10px;
   }
   header div .nav a {
     font-size: 0.75rem;
