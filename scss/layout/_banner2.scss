@@ -12,10 +12,15 @@
     border-radius: 30px;
     padding: 2.5rem;
     margin-top: 1.875rem;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
     div a:first-child img {
         width:20vh;
     }
     div:nth-child(1) img {
         width: 30vh;
     }
+}
+.banner2:hover{
+    transform: scale(1.01);
 }

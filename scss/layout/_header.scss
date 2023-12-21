@@ -4,6 +4,7 @@ header{
     position: sticky;
     margin-bottom: 1.875rem;
     border-bottom: solid 2px rgba(11, 11, 143, 0.13);
+    z-index: 1000;
     div{
     padding: .625rem;
     display:flex;
@@ -24,9 +25,10 @@ header{
             a{
                 padding: .625rem;
                 border-radius: .625rem;
+                transition-duration: 1s;
+                transition-timing-function: ease-out;
             }
             a:hover{
-                transition-duration: 1s;
                 color: yellow;
                 background-color: rgba(0, 0, 102, 0.747);
                 

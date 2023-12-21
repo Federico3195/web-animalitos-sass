@@ -1,0 +1,41 @@
+.productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    gap: 1rem;
+    margin-top: 3rem;
+    button{
+        font-size: 1.5625rem;
+        color: blue;
+        font-weight: bold;
+        background-color: yellow;
+        padding: 0px 10px;
+        border: solid 2px black;
+        border-radius: 10px;
+    }
+    button:hover{
+        color: yellow;
+        background-color: lightblue;
+    }
+    p{
+        font-size: 1.25rem;
+        margin-bottom: .625rem;
+        font-weight: bold;
+    }
+    img{
+        width: 25vh;
+        border-radius: 10%;
+        border: solid 3px rgba(0, 0, 116, 0.658);
+        margin-bottom: 2rem;
+        transition-duration: 1s;
+        transition-timing-function: ease-out;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+}
+
+

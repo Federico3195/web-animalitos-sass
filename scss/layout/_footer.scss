@@ -12,9 +12,12 @@ footer{
         div{
             display: flex;
         }
+        img{
+            transition-duration: 1s;
+            transition-timing-function: ease-out;
+        }
         img:hover{
             transform: scale(1.2);
-            transition-duration: 1s;
         }
     }
 }

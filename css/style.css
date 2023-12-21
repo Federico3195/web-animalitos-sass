@@ -15,6 +15,7 @@ header {
   position: sticky;
   margin-bottom: 1.875rem;
   border-bottom: solid 2px rgba(11, 11, 143, 0.13);
+  z-index: 1000;
 }
 header div {
   padding: 0.625rem;
@@ -37,9 +38,10 @@ header div nav ul {
 header div nav ul a {
   padding: 0.625rem;
   border-radius: 0.625rem;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
 }
 header div nav ul a:hover {
-  transition-duration: 1s;
   color: yellow;
   background-color: rgba(0, 0, 102, 0.747);
 }
@@ -74,9 +76,15 @@ header div nav ul a:hover {
   border: solid 3px rgba(18, 0, 83, 0.651);
   border-radius: 30px;
   margin-top: 1.875rem;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
 }
 .banner1 img {
   width: 30vh;
+}
+
+.banner1:hover {
+  transform: scale(1.01);
 }
 
 .section1 {
@@ -98,10 +106,55 @@ header div nav ul a:hover {
   color: white;
   font-size: 1.875rem;
   font-weight: bold;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+.section1 article:hover {
+  transform: scale(1.1);
 }
 .section1 img {
   border-radius: 10px;
   overflow: hidden;
+}
+
+.productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.productos button {
+  font-size: 1.5625rem;
+  color: blue;
+  font-weight: bold;
+  background-color: yellow;
+  padding: 0px 10px;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+.productos button:hover {
+  color: yellow;
+  background-color: lightblue;
+}
+.productos p {
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  font-weight: bold;
+}
+.productos img {
+  width: 25vh;
+  border-radius: 10%;
+  border: solid 3px rgba(0, 0, 116, 0.658);
+  margin-bottom: 2rem;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+.productos img:hover {
+  transform: scale(1.1);
 }
 
 .banner2 {
@@ -118,12 +171,18 @@ header div nav ul a:hover {
   border-radius: 30px;
   padding: 2.5rem;
   margin-top: 1.875rem;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
 }
 .banner2 div a:first-child img {
   width: 20vh;
 }
 .banner2 div:nth-child(1) img {
   width: 30vh;
+}
+
+.banner2:hover {
+  transform: scale(1.01);
 }
 
 .brands {
@@ -139,6 +198,11 @@ header div nav ul a:hover {
 .brands img {
   border: solid 4px rgba(0, 0, 0, 0.336);
   border-radius: 50%;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+.brands img:hover {
+  transform: scale(1.1);
 }
 
 .brands-title {
@@ -166,9 +230,12 @@ footer {
 footer div div {
   display: flex;
 }
+footer div img {
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
 footer div img:hover {
   transform: scale(1.2);
-  transition-duration: 1s;
 }
 
 .workwithus:hover {
@@ -210,6 +277,12 @@ footer div img:hover {
   footer img {
     width: 5vh;
   }
+  .productos p {
+    font-size: 1.3rem;
+  }
+  .productos img {
+    width: 18vh;
+  }
 }
 @media all and (max-width: 768px) {
   header {
@@ -249,6 +322,21 @@ footer div img:hover {
   }
   footer img {
     width: 5vh;
+  }
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .productos div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .productos img {
+    width: 15vh;
   }
 }
 @media all and (max-width: 425px) {
@@ -410,6 +498,12 @@ footer div img:hover {
   }
   footer img {
     width: 5vh;
+  }
+  .productos p {
+    font-size: 0.9375rem;
+  }
+  .productos img {
+    width: 10vh;
   }
 }
 @media all and (max-width: 178px) {

@@ -10,6 +10,12 @@
     img{
         border: solid 4px rgba(0, 0, 0, 0.336);
         border-radius: 50%;
+        transition-duration: 1s;
+        transition-timing-function: ease-out;
+    }
+    img:hover{
+        transform: scale(1.1);
+
     }
 }
 .brands-title{
