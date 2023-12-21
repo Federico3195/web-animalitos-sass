@@ -6,8 +6,9 @@
             align-items: center;
             .nav{
                 display: grid;
-                grid-template-columns: repeat(2,4fr);
-                gap: .0225rem;
+                grid-template-columns: repeat(2,1fr);
+                gap: 10px;
+                line-height: .4375rem;
                 a{
                     font-size: 10px;
                 }

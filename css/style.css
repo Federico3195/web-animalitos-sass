@@ -10,7 +10,6 @@ body {
 }
 
 header {
-  background-color: rgba(14, 14, 105, 0.877);
   top: 0;
   position: sticky;
   margin-bottom: 1.875rem;
@@ -44,6 +43,13 @@ header div nav ul a {
 header div nav ul a:hover {
   color: yellow;
   background-color: rgba(0, 0, 102, 0.747);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 0.625rem;
 }
 
 .logo {
@@ -340,19 +346,13 @@ footer div img:hover {
   }
 }
 @media all and (max-width: 425px) {
-  header {
-    font-size: 0.9375rem;
-  }
   header div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  header div .nav {
-    gap: 0.0625rem;
-  }
-  header input {
-    width: 10vh;
+  header div input {
+    display: none;
   }
   header img {
     width: 5vh;
@@ -365,16 +365,10 @@ footer div img:hover {
   header .icons {
     display: flex;
     flex-direction: row;
-    text-align: center;
-  }
-  header .icons a {
-    font-size: 12px;
-    text-align: center;
+    gap: 10px;
   }
   header .icons img {
-    display: flex;
-    width: 3vh;
-    translate: 13px;
+    width: 4vh;
   }
   .title {
     display: flex;
@@ -418,54 +412,36 @@ footer div img:hover {
     width: 5vh;
   }
 }
-@media all and (max-width: 425px) {
+@media all and (max-width: 320px) {
   header {
-    font-size: 0.9375rem;
-  }
-  header div {
     flex-direction: row;
-    justify-content: stretch;
-    align-items: center;
   }
-  header div .nav {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    line-height: 1rem;
+  header .nav {
+    gap: 0;
   }
-  header div .nav a {
-    font-size: 0.75rem;
-  }
-  header input {
-    display: none;
-  }
-  header .logo {
-    display: flex;
-    justify-content: center;
-    translate: 220px 0px;
-    width: 10vh;
-    position: absolute;
+  header .nav a {
+    font-size: 10px;
+    padding: 0.125rem;
   }
   header .icons {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
     padding: 0;
   }
   header .icons a {
-    font-size: 12px;
-    text-align: center;
+    font-size: 10px;
+  }
+  header .icons img {
+    width: 3vh;
   }
   .title {
     display: flex;
     flex-wrap: wrap;
-    font-size: 4rem;
+    font-size: 2.1875rem;
     text-align: center;
     line-height: 3.3125rem;
   }
   .banner1 {
     width: 90%;
-    font-size: 2rem;
+    font-size: 1.8125rem;
     line-height: 3.0005rem;
   }
   .banner1 img {
@@ -512,8 +488,9 @@ footer div img:hover {
   }
   header div .nav {
     display: grid;
-    grid-template-columns: repeat(2, 4fr);
-    gap: 0.0225rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    line-height: 0.4375rem;
   }
   header div .nav a {
     font-size: 10px;

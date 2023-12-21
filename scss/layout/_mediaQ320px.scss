@@ -1,51 +1,33 @@
-@media all and (max-width: 425px){
+@media all and (max-width: 320px){
     header{
-        div{
-            flex-direction: row;
-            justify-content: stretch;
-            align-items: center;
-            .nav{
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-                line-height: 1rem;
-                a{
-                    font-size: .75rem;
-                }
+        flex-direction: row;
+        .nav{
+            a{
+                font-size: 10px;
+                padding: .125rem;
+            }
+            gap: 0;
+        }
+        .icons{
+            padding: 0;
+            a{
+                font-size: 10px;
+            }
+            img{
+                width: 3vh;
             }
         }
-        font-size: .9375rem;
-        input{
-            display: none;
-        }
-.logo{
-    display: flex;
-    justify-content: center;
-    translate: 220px -0px;
-    width: 10vh;
-    position: absolute;
-}
-.icons{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding: 0;
-    a{
-        font-size: 12px;
-        text-align: center;
     }
-}
-}
 .title{
     display: flex;
     flex-wrap: wrap;
-    font-size: 4rem;
+    font-size: 2.1875rem;
     text-align: center;
     line-height: 3.3125rem;
 }
 .banner1{
     width: 90%;
-    font-size: 2.0rem;
+    font-size: 1.8125rem;
     line-height: 3.0005rem;
     img{
         width: 10vh;

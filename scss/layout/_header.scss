@@ -1,5 +1,4 @@
 header{
-    background-color: rgba(14, 14, 105, 0.877);
     top: 0;
     position: sticky;
     margin-bottom: 1.875rem;
@@ -36,6 +35,12 @@ header{
         }
     }
 }
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: .625rem;
 }
 .logo{
     width: 10vh;
