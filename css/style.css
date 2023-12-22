@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -65,9 +66,28 @@ header div nav ul a:hover {
 }
 
 .title {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 6rem;
+  font-family: "Rubik Bubbles", sans-serif;
+  font-size: 5rem;
   font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.cart {
+  text-align: center;
+  padding: 10px;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.medios {
+  color: white;
+  font-size: 1.25rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+.medios div {
+  width: 30vh;
 }
 
 .banner1 {
@@ -80,6 +100,7 @@ header div nav ul a:hover {
   color: white;
   font-size: 3.75rem;
   font-weight: bolder;
+  font-family: "Bebas Neue", sans-serif;
   padding: 2.5rem;
   border: solid 3px rgba(18, 0, 83, 0.651);
   border-radius: 30px;
@@ -312,6 +333,10 @@ footer div img:hover {
   .productos img {
     width: 18vh;
   }
+  .title {
+    font-size: 3rem;
+    letter-spacing: normal;
+  }
 }
 @media all and (max-width: 768px) {
   header {
@@ -324,7 +349,7 @@ footer div img:hover {
     width: 5vh;
   }
   .title {
-    font-size: 5rem;
+    font-size: 2.5rem;
   }
   .banner1 {
     width: 70%;
@@ -396,7 +421,7 @@ footer div img:hover {
   .title {
     display: flex;
     flex-wrap: wrap;
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
     line-height: 3.3125rem;
   }
@@ -458,14 +483,14 @@ footer div img:hover {
   .title {
     display: flex;
     flex-wrap: wrap;
-    font-size: 2.1875rem;
+    font-size: 1.25rem;
     text-align: center;
-    line-height: 3.3125rem;
+    line-height: 1.375rem;
   }
   .banner1 {
     width: 90%;
-    font-size: 1.8125rem;
-    line-height: 3.0005rem;
+    font-size: 2rem;
+    line-height: 2rem;
   }
   .banner1 img {
     width: 10vh;
@@ -475,11 +500,11 @@ footer div img:hover {
   }
   .section1 article {
     width: 10vh;
-    font-size: 1.25rem;
+    font-size: 10px;
   }
   .banner2 {
     width: 90%;
-    font-size: 2.5rem;
+    font-size: 18px;
     gap: 10px;
   }
   .brands {
@@ -519,7 +544,7 @@ footer div img:hover {
     font-size: 10px;
   }
   .title {
-    font-size: 3rem;
+    font-size: 0.9375rem;
   }
   .banner1 {
     width: 90%;

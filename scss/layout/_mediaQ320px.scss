@@ -21,14 +21,14 @@
 .title{
     display: flex;
     flex-wrap: wrap;
-    font-size: 2.1875rem;
+    font-size: 1.25rem;
     text-align: center;
-    line-height: 3.3125rem;
+    line-height: 1.375rem;
 }
 .banner1{
     width: 90%;
-    font-size: 1.8125rem;
-    line-height: 3.0005rem;
+    font-size: 2rem;
+    line-height: 2rem;
     img{
         width: 10vh;
     }
@@ -37,13 +37,13 @@
     flex-wrap: wrap;
     article{
         width: 10vh;
-        font-size: 1.25rem;
+        font-size: 10px;
 
     }
 }
 .banner2{
     width: 90%;
-    font-size: 2.5rem;
+    font-size: 18px;
     gap: 10px;
 }
 .brands{
