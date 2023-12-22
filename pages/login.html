@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animalitos - Ingresar</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-gradient-to-t from-blue-800 to-cyan-300">
+    
+
+    <header class="bg-gradient-to-t from-sky-400 to-indigo-800">
+        <div>
+
+            
+            <a class="logo" href="../index.html"><img  src="../assets/img/logo animalitos.png" alt="logo animalitos"></a>
+
+            <nav>
+                <ul class="nav">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./adultos.html">Adultos</a></li>
+                    <li><a href="./cachorros.html">Cachorros</a></li>
+                    <li><a href="./gatos.html">Gatos</a></li>
+                    <li><a href="./forraje.html">Forraje</a></li>
+                </ul>
+            </nav>
+            
+            <form action="/search" method="GET">
+                <input type="text" placeholder="Buscar..." name="q">
+            </form>
+            
+            <div class="icons">
+                <a class="active" href="./signup.html"><img src="../assets/img/male User.png" alt="">Ingresar</a>
+                <a href=""><img src="../assets/img/cart.png" alt="">Carrito</a>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- component -->
+<div class="login flex items-center justify-center h-screen">
+    <div class="bg-gradient-to-b from-cyan-100 to-blue-400 p-8 rounded-lg shadow-lg max-w-sm w-full">
+        <div class="flex justify-center mb-6">
+            <span class="inline-block bg-gray-200 rounded-full p-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 4a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/></svg>
+            </span>
+        </div>
+        <h2 class="text-2xl font-semibold text-center mb-4">Ingreso</h2>
+        <form>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 text-sm font-semibold mb-2">Email</label>
+                <input type="email" id="email" class="form-input w-full px-4 py-2 border rounded-lg text-gray-700 focus:ring-blue-500" required placeholder="hola@gmail.com">
+            </div>
+            <div class="mb-6">
+                <label for="password" class="block text-gray-700 text-sm font-semibold mb-2">Contraseña</label>
+                <input type="password" id="password" class="form-input w-full px-4 py-2 border rounded-lg text-gray-700 focus:ring-blue-500" required placeholder="••••••••">
+            </div>
+            <button type="submit" class="w-full bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">Ingresar</button>
+            <p class="text-gray-600 text-xs text-center mt-4">
+                ¿Todavia no tenes una cuenta?
+                <a href="./signup.html" class="text-blue-500 hover:underline">Registrate</a>.
+            </p>
+        </form>
+    </div>
+</div>
+
+
+
+    </main>
+
+    <footer class="bg-gradient-to-b from-blue-800 to-cyan-300">
+
+        <div>
+            <h4>Seguinos en:</h4>
+            <div>
+                <a href="https://www.instagram.com/"><img src="../assets/img/instagram.png" alt="Instagram"></a>
+                <a href="https://twitter.com/"><img src="../assets/img/twitterx.png" alt="X Twitter"></a>
+                <a href="https://www.facebook.com/"><img src="../assets/img/facebook.png" alt="Facebook"></a>
+            </div>
+        </div>
+
+        <a class="workwithus" href="">Trabaja con nosotros</a>
+
+        <div class="contact">
+            <h4>Si tenes sugerencias o comentarios,</h4>
+            <a href="">Contactanos</a>
+        </div>
+
+    </footer>
+</body>
+</html>
