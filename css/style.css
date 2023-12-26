@@ -135,6 +135,106 @@ header div nav ul a:hover {
   border-radius: 20px;
 }
 
+.category-banner-dog {
+  background-image: url(../../assets/img/bannerdog.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 60%;
+  height: 30vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-size: 3.75rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bolder;
+  color: white;
+  border: solid 3px rgba(18, 0, 83, 0.671);
+  border-radius: 30px;
+  padding: 2.5rem;
+  margin-top: 1.875rem;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+
+.category-banner-dog:hover {
+  transform: scale(1.01);
+}
+
+.category-banner-puppy {
+  background-image: url(../../assets/img/bannerpuppy.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 60%;
+  height: 30vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-size: 3.75rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bolder;
+  color: white;
+  border: solid 3px rgba(18, 0, 83, 0.671);
+  border-radius: 30px;
+  padding: 2.5rem;
+  margin-top: 1.875rem;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+
+.category-banner-puppy:hover {
+  transform: scale(1.01);
+}
+
+.category-banner-cat {
+  background-image: url(../../assets/img/bannercat.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 60%;
+  height: 30vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-size: 3.75rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bolder;
+  color: white;
+  border: solid 3px rgba(18, 0, 83, 0.671);
+  border-radius: 30px;
+  padding: 2.5rem;
+  margin-top: 1.875rem;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+
+.category-banner-cat:hover {
+  transform: scale(1.01);
+}
+
+.category-banner-chicken {
+  background-image: url(../../assets/img/bannerchicken.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 60%;
+  height: 30vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-size: 3.75rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bolder;
+  color: white;
+  border: solid 3px rgba(18, 0, 83, 0.671);
+  border-radius: 30px;
+  padding: 2.5rem;
+  margin-top: 1.875rem;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+
+.category-banner-chicken:hover {
+  transform: scale(1.01);
+}
+
 .section1 {
   display: flex;
   justify-content: center;
@@ -202,6 +302,56 @@ header div nav ul a:hover {
   transition-timing-function: ease-out;
 }
 .productos img:hover {
+  transform: scale(1.1);
+}
+
+.productos-sell {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+.productos-sell div:nth-child(2) {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.productos-sell div:nth-child(2) p {
+  font-size: 1rem;
+}
+.productos-sell div:nth-child(2) h1 {
+  font-size: 3rem;
+}
+.productos-sell button {
+  font-size: 1.5625rem;
+  color: blue;
+  font-weight: bold;
+  background-color: yellow;
+  padding: 0px 10px;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+.productos-sell button:hover {
+  color: yellow;
+  background-color: lightblue;
+}
+.productos-sell p {
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  font-weight: bold;
+}
+.productos-sell img {
+  width: 25vh;
+  border-radius: 10%;
+  border: solid 3px rgba(0, 0, 116, 0.658);
+  margin-bottom: 2rem;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+.productos-sell img:hover {
   transform: scale(1.1);
 }
 
