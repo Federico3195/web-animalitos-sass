@@ -79,4 +79,23 @@ footer{
             width: 15vh;
     }
 }
+.productos-sell{
+    flex-direction: column;
+    align-items: center;
+    & div:nth-child(2){
+        width: 80%;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    p:nth-child(2){
+        display: none;
+    }
+}
 }

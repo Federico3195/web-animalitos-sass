@@ -82,4 +82,9 @@ footer{
         width: 5vh;
     }
 }
+.productos-sell{
+    & div:nth-child(2){
+        width: 80%;
+}
+}
 }
