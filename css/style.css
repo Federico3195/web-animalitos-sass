@@ -630,9 +630,6 @@ footer div img:hover {
     flex-direction: row;
     gap: 22px;
   }
-  header .icons img {
-    width: 5vh;
-  }
   .title {
     display: flex;
     flex-wrap: wrap;
@@ -712,9 +709,6 @@ footer div img:hover {
     display: flex;
     flex-direction: row;
     gap: 10px;
-  }
-  header .icons img {
-    width: 4vh;
   }
   .title {
     display: flex;
