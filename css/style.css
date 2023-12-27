@@ -535,10 +535,10 @@ footer div img:hover {
   header .icons {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 22px;
   }
   header .icons img {
-    width: 4vh;
+    width: 5vh;
   }
   .title {
     font-size: 2rem;
@@ -628,10 +628,10 @@ footer div img:hover {
   header .icons {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 22px;
   }
   header .icons img {
-    width: 4vh;
+    width: 5vh;
   }
   .title {
     display: flex;
