@@ -1,13 +1,14 @@
 @media all and (max-width: 425px){
     header{
-        
+        .nav{
+            gap:0px;
+            font-size: 10px;
+        }
         div{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            input{
-                display: none;
-            }
+
         }
         img{
             width: 5vh;
@@ -41,6 +42,19 @@
         width: 16vh;
     }
 }
+.category-banner-dog{
+    width: 90%;
+}
+.category-banner-puppy{
+    width: 90%;
+}
+.category-banner-chicken{
+    width: 90%;
+}
+.category-banner-cat{
+    width: 90%;
+}
+
 .section1{
     flex-wrap: wrap;
     article{

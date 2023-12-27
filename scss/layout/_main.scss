@@ -3,7 +3,19 @@
     font-size: 5rem;
     font-weight: bold;
     letter-spacing: 5px;
+    animation: tracking-out-contract 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) 555ms reverse both;
 }
 
-
-
+ @keyframes tracking-out-contract {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+  }
+  

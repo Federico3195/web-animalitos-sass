@@ -1,26 +1,51 @@
 @media all and (max-width: 768px){
     header{
         font-size: .9375rem;
+        .nav{
+            gap: 0px;
+        }
+
+        div{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         input{
-            width: 7vh;
+            width: 15vh;
         }
         img{
             width: 5vh;
         }
+        .logo{
+            display: flex;
+            justify-content: center;
+            width: 10vh;
+        }
+        .icons{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            img{
+                width:4vh;
+            }
+        }
 }
 .title{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .banner1{
+    flex-direction: column;
+    text-align: center;
     width: 70%;
-    font-size: 3rem;
+    font-size: 2rem;
     img{
-        width: 18vh;
+        width: 15vh;
     }
 }
 .section1{
     article{
-        font-size: 25px;
+        font-size: 15px;
+        font-weight: normal;
     }
 }
 .banner2{

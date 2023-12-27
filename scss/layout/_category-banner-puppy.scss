@@ -1,12 +1,14 @@
 .category-banner-puppy{
-        background-image: url(../../assets/img/bannerpuppy.jpg);
+        background-image: url(../assets/img/bannerpuppy.jpg);
         background-position: center;
         background-size: cover;
         width: 60%;
         height: 30vh;
         margin: auto;
         display: flex;
+        justify-content: center;
         align-items: center;
+        text-align: center;
         font-size: 3.75rem;
         font-family: 'Bebas Neue', sans-serif;
         font-weight: bolder;

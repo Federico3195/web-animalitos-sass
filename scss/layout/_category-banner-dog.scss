@@ -1,11 +1,12 @@
 .category-banner-dog{
-        background-image: url(../../assets/img/bannerdog.jpg);
+        background-image: url(../assets/img/bannerdog.jpg);
         background-position: center;
         background-size: cover;
         width: 60%;
         height: 30vh;
         margin: auto;
         display: flex;
+        justify-content: center;
         align-items: center;
         font-size: 3.75rem;
         font-family: 'Bebas Neue', sans-serif;
