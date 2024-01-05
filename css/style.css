@@ -874,6 +874,11 @@ footer div img:hover {
   .productos img {
     width: 10vh;
   }
+  .medios2 div {
+    justify-content: center;
+    width: 7vh;
+    border: red solid 3px;
+  }
 }
 @media all and (max-width: 178px) {
   header div {
